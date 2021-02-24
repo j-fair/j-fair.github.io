@@ -19,7 +19,9 @@ h2 {
 }
 
 .container {
+            width: 1024;
             margin: 0 auto;
+            
 }
 
 #main-bio,
