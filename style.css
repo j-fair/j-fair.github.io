@@ -22,8 +22,10 @@ h2 {
             margin: 0 auto;
 }
 
-.fll {
-    float: left;
+#main-bio,
+#contact-info,
+#bio-image {
+            float: left;
 }
 
 #bio-image {
@@ -32,4 +34,19 @@ h2 {
 
 #main-bio {
             width: 70%;
+}
+
+#contact-info {
+                width: 30%
+}
+
+
+#bio-image {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+}
+
+a {
+    color: red
 }
