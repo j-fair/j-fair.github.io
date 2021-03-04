@@ -1,0 +1,78 @@
+body {
+  background-color: cornsilk;
+  color: midnightblue;
+}
+
+h1 {
+  color: midnightblue;
+  text-align: center;
+}
+
+h2 {
+  color: midnightblue;
+}
+
+h3 {
+  color: midnightblue;
+}
+
+h4 {
+  color: midnightblue;
+}
+
+h5 {
+  color: midnightblue;
+}
+
+h6 {
+  color: midnightblue;
+}
+
+
+hr { 
+  display: block; 
+  height: 1px;
+  border: 0; 
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0; 
+}
+
+
+/* NavBar */
+@media (max-width: 640px) {
+.navbar{
+  background-color: slategray  }
+}
+
+
+
+.navbar-brand {padding: 20;}
+
+.container-fluid {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.col-lg-4 {
+    background: none;
+  }
+.col-lg-8 {
+    background: none;  
+  }
+.col-4 {
+    background: none;
+}
+.col-12{
+    background:none;
+}
+
+img:hover {
+
+  border: 2px solid red;
+
+}
+
+#left-main {
+  height: 400px;
+  width: 45%;
+}
