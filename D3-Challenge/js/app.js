@@ -25,7 +25,7 @@ var chartGroup = svg.append("g")
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Read csv
-d3.csv("../data/data.csv").then(function(fileData) {
+d3.csv("D3-Challenge/data.csv").then(function(fileData) {
     // console.log(fileData);
 
     // Parse data
