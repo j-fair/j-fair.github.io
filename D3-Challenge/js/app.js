@@ -121,13 +121,13 @@ d3.csv("data/data.csv").then(function(fileData) {
     chartGroup.append("text")
         .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + margin.top})`)
         .attr("class", "axisText")
-        .text(`<strong>In Poverty (%)</strong>`);
+        .text(`In Poverty (%)`);
 
     chartGroup.append("text")
     .attr("transform", "rotate(-90)")
     .attr("y", 0 - margin.left + 30)
     .attr("x", 0 - (chartHeight / 2))
     .attr("class", "axisText")
-    .text(`<strong>Lacks Healthcare (%)</strong>`);
+    .text(`Lacks Healthcare (%)`);
 
 });
